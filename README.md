@@ -44,7 +44,9 @@ Three boxes inside a flex container. The container has `flex-wrap: wrap` and the
 **Screenshot (tablet):**
 ![7](images/image-6.png)
 
+
 **Screenshot (mobile):**
+
 ![8](images/image-7.png)
 
 ![9](images/image-8.png)
@@ -64,7 +66,9 @@ Three columns in a Bootstrap row using `col-lg-4` and `col-md-6`. On desktop eac
 **Screenshot (tablet):**
 ![12](images/image-11.png)
 
+
 **Screenshot (mobile):**
+
 ![13](images/image-12.png)
 
 ![14](images/image-13.png)
@@ -77,7 +81,9 @@ Bootstrap navbar with `navbar-expand-lg` so it collapses into a hamburger menu b
 **Screenshot (desktop):**
 ![16](images/image-15.png)
 
+
 **Screenshot (mobile, menu open):**
+
 ![17](images/image-16.png)
 ![17a](images/image-17.png)
 
@@ -94,7 +100,9 @@ The portfolio section uses the same Bootstrap navbar as the header, then a Boots
 **Screenshot (desktop):**
 ![22](images/image-22.png)
 
+
 **Screenshot (mobile):**
+
 ![23](images/image-23.png)
 ![24](images/image-24.png)
 
