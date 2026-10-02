@@ -109,8 +109,8 @@ The main thing I learned here was mobile-first thinking. Instead of designing fo
 
 The Bootstrap grid uses a 12-column system, so `col-lg-4` means "4 out of 12 on large screens" (which is one third). Combining `col-lg-4 col-md-6` on the same element lets it change size at different breakpoints without any custom CSS.
 
-The trickiest part was the navbar. It needs three specific things to work — `navbar-expand-lg` on the nav, a `navbar-toggler` button with `data-bs-target`, and a collapsible div with a matching `id`. Also, Bootstrap's JavaScript bundle needs to be loaded at the end of the body, otherwise the hamburger doesn't toggle.
+The trickiest part was the navbar. It needs three specific things to work, `navbar-expand-lg` on the nav, a `navbar-toggler` button with `data-bs-target`, and a collapsible div with a matching `id`. Also, Bootstrap's JavaScript bundle needs to be loaded at the end of the body, otherwise the hamburger doesn't toggle.
 
-The `meta viewport` tag in the head was also important — without it, mobile browsers render the page at a desktop width and scale everything down.
+The `meta viewport` tag in the head was also important, without it, mobile browsers render the page at a desktop width and scale everything down.
 
 ---
