@@ -1,9 +1,10 @@
 # Assignment #3: Responsive Web Design (Media Queries and Bootstrap Grid)
 
 **Name:** Avirup Roy
+
 **Group:** IT-2513
-**Course:** Web Technologies 1
-**Live Site:** 
+
+**Live Site:** https://aviruproyneal.github.io/assignment3_webtech/#portfolio
 
 ---
 
@@ -20,8 +21,13 @@ This assignment was about making a webpage that adapts to different screen sizes
 I set up base font sizes for mobile and used `min-width` media queries at 768px and 992px to scale up `h1`, `h2`, and `p` at each breakpoint. Mobile gets the smallest text, tablet is medium, desktop is largest.
 
 **Screenshot:**
+
+**Screenshot (desktop):**
 ![1](images/image.png)
+
+**Screenshot (mobile):**
 ![2](images/image-1.png)
+
 ![3](images/image-2.png)
 ![4](images/image-3.png)
 ![5](images/image-4.png)
