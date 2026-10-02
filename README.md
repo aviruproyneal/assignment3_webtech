@@ -25,7 +25,9 @@ I set up base font sizes for mobile and used `min-width` media queries at 768px 
 **Screenshot (desktop):**
 ![1](images/image.png)
 
+
 **Screenshot (mobile):**
+
 ![2](images/image-1.png)
 
 ![3](images/image-2.png)
