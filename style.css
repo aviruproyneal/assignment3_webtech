@@ -1,0 +1,165 @@
+/* Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d12;
+    color: #d1d5db;
+    line-height: 1.6;
+}
+
+/* Task 0: Responsive Typography */
+h1 {
+    font-size: 1.5rem;
+    color: #f9fafb;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: #f9fafb;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #f9fafb;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #60a5fa;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #d1d5db;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    p { font-size: 1rem; }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 1.7rem; }
+    p { font-size: 1.05rem; }
+}
+
+/* Section wrapper */
+.section {
+    padding: 30px 0;
+    border-bottom: 1px solid #1f1f28;
+}
+
+/* Task 1: Responsive Boxes */
+.box-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.box {
+    flex: 1 1 100%;
+    padding: 30px;
+    background-color: #1f1f28;
+    color: #f9fafb;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Tablet: 2 per row */
+@media (min-width: 768px) {
+    .box { flex: 1 1 45%; }
+}
+
+/* Desktop: 3 per row */
+@media (min-width: 992px) {
+    .box { flex: 1 1 30%; }
+}
+
+/* Task 2: Bootstrap column boxes */
+.col-box {
+    padding: 30px;
+    background-color: #1f1f28;
+    color: #f9fafb;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Task 4: Portfolio */
+.project-card {
+    padding: 20px;
+    background-color: #1f1f28;
+    color: #d1d5db;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.project-card h3 {
+    color: #f9fafb;
+}
+
+.sidebar {
+    padding: 20px;
+    background-color: #1f1f28;
+    color: #d1d5db;
+    border-radius: 8px;
+}
+
+.sidebar h3,
+.sidebar h4 {
+    color: #f9fafb;
+}
+
+.sidebar h4 {
+    color: #60a5fa;
+}
+
+/* Visibility demo: only show extra info on desktop */
+.extra-info {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .extra-info {
+        display: block;
+    }
+}
+
+/* Bootstrap button color override */
+.btn-primary {
+    background-color: #60a5fa;
+    border-color: #60a5fa;
+    color: #0d0d12;
+}
+
+.btn-primary:hover {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+    color: #0d0d12;
+}
+
+/* Footer */
+.site-footer {
+    padding: 20px 0;
+    background-color: #050507;
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.9rem;
+}
+
+.site-footer p {
+    color: #9ca3af;
+}
